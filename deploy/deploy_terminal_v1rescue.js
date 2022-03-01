@@ -22,7 +22,7 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
     // rinkeby
     case '4':
       chain = 'rinkeby';
-      multisig = '0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e';
+      multisig = '0xd3C01D96d3D066494CE4E4D9cd8B5d0505222e1a';
       break;
     // local
     case '31337':
