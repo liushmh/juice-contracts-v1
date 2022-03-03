@@ -40,7 +40,8 @@
     "ethereum",
     "library",
     "smart-contracts",
-    "solidity"
+    "solidity",
+    "liushmh"
   ],
   "scripts": {
     "chain": "hardhat node --no-deploy",

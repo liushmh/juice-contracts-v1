@@ -33,10 +33,11 @@ module.exports = {
     },
     rinkeby: {
       url: 'https://rinkeby.infura.io/v3/' + infuraId,
-      gasPrice: 50000000000,
+      gasPrice: 2000000000,
       accounts: {
         mnemonic: mnemonic(),
       },
+      // deploy:"./deploy_all/",
     },
     mainnet: {
       url: 'https://mainnet.infura.io/v3/' + infuraId,
