@@ -17,7 +17,7 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
     // mainnet
     case '1':
       chain = 'mainnet';
-      multisig = '0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e';
+      multisig = '0xa4283F8e2C6b8c1ae526B3415d49E314410c1535';
       break;
     // rinkeby
     case '4':
